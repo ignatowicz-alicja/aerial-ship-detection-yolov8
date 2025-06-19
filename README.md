@@ -53,3 +53,23 @@ A curated dataset of 26.9k satellite images annotated with YOLO-format bounding 
 ### 2. Ships in Satellite Imagery   
 A labeled dataset of small 80×80 satellite chips, with binary labels: ship or no-ship.
 - Source: [ShipsNet - Satellite Image Classification – Kaggle](https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery)
+
+## Example: Full-Scale Inference
+
+To run ship detection on a high-resolution satellite image from the **Ships in Satellite Imagery** dataset, use the full-scene pipeline script.
+Below it is en example of the output.
+
+![Detected ships in sfbay_3](sfbay_3.png)
+
+> ⚠️ **Note on Resolution**
+> For optimal detection accuracy, the YOLOv8 detector should be trained on the **original full resolution** images (e.g. 1024×1024).
+> 
+> The example model provided in this repository was trained on **downsampled data** due to hardware limitations, and may not reach maximum possible performance on high-resolution scenes.
+
+
+
+
+
+
+
+
