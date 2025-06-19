@@ -2,8 +2,8 @@
 
 This repository implements a two-phase pipeline for detecting ships in aerial and satellite images using YOLOv8:
 
-- **Phase 1** – a classifier trained to locate regions likely to contain ships (based on ShipsNet and negative chips from real imagery).
-- **Phase 2** – a YOLOv8 object detector trained on annotated real aerial scenes.
+- **Phase 1** – a YOLOv8 object detector trained on annotated real aerial scenes.
+- **Phase 2** – a classifier trained to locate regions likely to contain ships.
 
 This approach improves speed and accuracy by avoiding full-frame detection on massive satellite images.
 
