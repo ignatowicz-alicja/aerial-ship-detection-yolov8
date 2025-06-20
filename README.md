@@ -59,7 +59,8 @@ A labeled dataset of small 80×80 satellite chips, with binary labels: ship or n
 To run ship detection on a high-resolution satellite image from the **Ships in Satellite Imagery** dataset, use the full-scene pipeline script.
 Below it is en example of the output.
 
-![Detected ships in sfbay_3](sfbay_3.png)
+![Detected ships](sfbay_1.png)
+![Detected ships](sfbay_3.png)
 
 > ⚠️ **Note on Resolution**
 > For optimal detection accuracy, the YOLOv8 detector should be trained on the **original full resolution** images (e.g. 1024×1024).
